@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="header">
-        <img src="https://st3.depositphotos.com/27856762/33147/v/950/depositphotos_331475792-stock-illustration-initial-letter-logo-colorful-letter.jpg?forcejpeg=true" style="width:250px;height:210px">
+        <img src="https://o.remove.bg/downloads/0c889408-d5c1-4e52-9d9c-729e2a54b86e/depositphotos_331475792-stock-illustration-initial-letter-logo-colorful-letter-removebg-preview.png" style="width:250px;height:210px">
         <h1 style="margin-left: 25px; margin-top:-150px;font-size:50px">VP SHOP</h1>
     </div>
     <div class="menu">
@@ -112,13 +112,16 @@
   color: #333;
 }
 .header{
-    background:black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,161,222,1) 0%, rgba(9,9,121,1) 52%, rgba(47,150,171,1) 100%);
     height:210px;
 }
 .header h1{
     text-align: center;
     color: #FFFFFF;
     text-shadow: 2px 2px #ff0000;
+}
+.header img{
+    margin-left: 100px;
 }
 .menu ul {
   background: #1F568B;

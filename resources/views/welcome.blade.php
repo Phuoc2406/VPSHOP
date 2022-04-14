@@ -12,7 +12,7 @@
 
     <div class="container">
             <div class="top-header">
-                <img src="https://www.freepnglogos.com/uploads/logo-keren-png/logo-computer-networking-26.png" alt="">
+                <img src="https://o.remove.bg/downloads/0c889408-d5c1-4e52-9d9c-729e2a54b86e/depositphotos_331475792-stock-illustration-initial-letter-logo-colorful-letter-removebg-preview.png" alt="">
                 <ul>
                     <li><a href="http://127.0.0.1:8000/">Trang Chủ</a></li>
                     <li><a href="http://127.0.0.1:8000/sanpham">Sản Phẩm</a></li>
@@ -35,7 +35,7 @@
                 </div>
    
        <div class="slide">
-             <img src="https://image.shutterstock.com/image-vector/computer-shop-various-parts-on-260nw-569212921.jpg" alt="">  
+             <img src="https://images.unsplash.com/photo-1624705002806-5d72df19c3ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="">  
        </div>
        <div class="logobaohanh">
        <div class="col-12-md">
@@ -104,17 +104,16 @@ body {
   }
 
 .container button{
-    width: 200px;
-    height: 30px;
-    background-color: #02a860;
+    width: 250px;
+    height: 45px;
+    background-color: #02a1de;
     color: white;
     outline: none;
     border: none;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.25s;
-    transition-delay: 0.15s;
     margin-right: 50px;
+    border-radius: 10px;
 }
 
 
@@ -122,7 +121,7 @@ body {
 .top-header{
     width: 100%;
     height: 100px;
-    background-color: rgb(63, 52, 52);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(2,161,222,1) 0%, rgba(9,9,121,1) 52%, rgba(47,150,171,1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,12 +134,16 @@ body {
 .top-header ul li{
     margin: 6px 120px;
     color: white;
-    font-size: 17px;
+    font-size: 25px;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.25s;
-    transition-delay: 0.15s;
+    list-style-type: none;
 }
+.top-header ul li > a{
+    color:white;
+    text-decoration: none;
+}
+
 
 
 .glowing_text h1 span{
@@ -177,12 +180,13 @@ body {
 }
 .slide img{
     width: 1200px;
-    height: auto;
+    height: auto;   
 
 }
 .top-header img{
-    width: 100px;
+    width: 250px;
     margin-left: 200px;
+
     
 }
 
