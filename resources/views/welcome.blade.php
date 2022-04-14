@@ -14,9 +14,9 @@
             <div class="top-header">
                 <img src="https://www.freepnglogos.com/uploads/logo-keren-png/logo-computer-networking-26.png" alt="">
                 <ul>
-                    <li>TRANG CHỦ</li>
-                    <li>SẢN PHẤM</li>
-                    <li>LIÊN HỆ</li>
+                    <li><a href="http://127.0.0.1:8000/">Trang Chủ</a></li>
+                    <li><a href="http://127.0.0.1:8000/sanpham">Sản Phẩm</a></li>
+                    <li><a href="http://127.0.0.1:8000/lienhe">Liên Hệ</a></li>
                     <button>
                         Đăng Nhập / Đăng ký
                     </button>
@@ -172,7 +172,7 @@ body {
     margin-left: 750px;
 }
 .slide{
-    padding-top: 200px;
+    padding-top: 100px;
     margin-left: 20%;
 }
 .slide img{

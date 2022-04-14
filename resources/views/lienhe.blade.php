@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<!--Source from https://www.youtube.com/watch?v=kdx_TGjvsMg&ab_channel=OnlineTutorials-->  
+
 <section>
     <div class="container">
         <div class="containerinfo">
@@ -69,7 +69,30 @@
                </div>
            </div>
        </div>
-</section>    
+</section> 
+
+<footer id="colophon" class="site-footer">
+		<div class="footer">
+	<div class="container">
+		<div class="row"> 
+			<div class="col-md-8">
+				<div class="site-info">
+					
+					</div><!-- .site-info -->
+					<p>Chào Mừng các bạn đến với VP SHOP</p>
+					<p>Liên Hệ với chúng tôi để được tư vấn một các tận tình nhất</p>
+					<p> 090876xxxx - 02137489xxxx </p>
+					<p>Hoặc</p>
+						<strong>
+							<a href="mailto:"nvp2406@gmail.com">nvp2406.@gmail.com</a>
+						</strong>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+	</div><!-- #page -->
+</footer><!-- #colophon -->
 
 </body>
 </html>
@@ -259,6 +282,17 @@ section .container .containerForm .formBox .inputBox textarea:valid ~ span{
     font-weight: 400;
     letter-spacing: 1px;
     color: #ff568c
+}
+.site-footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.site-footer{
+    color: white;
+    text-decoration: none;
 }
 
 </style>
